@@ -30,7 +30,7 @@ public class Size {
 	    root=nodeInsertionObj.insertNodeAtEnd(root,5);
 	    root=nodeInsertionObj.insertNodeAtEnd(root,7);
 	    root=nodeInsertionObj.insertNodeAtEnd(root,-1);
-	    root=nodeInsertionObj.insertAtFront(root,34);
+	    root=nodeInsertionObj.insertNodeAtEnd(root,34);
 	    int count=sizeObj.getSize(root); 
 	    System.out.println(count);
 	}

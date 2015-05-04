@@ -51,7 +51,7 @@ public class Search {
 	    root=nodeInsertionObj.insertNodeAtEnd(root,5);
 	    root=nodeInsertionObj.insertNodeAtEnd(root,7);
 	    root=nodeInsertionObj.insertNodeAtEnd(root,-1);
-	    root=nodeInsertionObj.insertAtFront(root,34);
+	    root=nodeInsertionObj.insertNodeAtEnd(root,34);
 	   // Node node=searchObj.searchData(root,7); 
 	   // System.out.println(node.data);
 	    Node node=searchObj.searchNthData(root,2); 
