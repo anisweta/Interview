@@ -42,8 +42,6 @@ public class NodeInsertion {
 	    root=nodeInsertionObj.insertNodeAtEnd(root,-1);
 	    root=nodeInsertionObj.insertAtFront(root,34);
 	    Traversal traversalObj=new Traversal();
-	    traversalObj.traverse(root);
-	    
-	    
+	    traversalObj.traverse(root);   	    
 	}
 }
