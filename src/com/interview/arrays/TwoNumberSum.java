@@ -33,7 +33,7 @@ public class TwoNumberSum {
 	}
 	
 	//method for sorted array - logic is too add first and last number and check if 
-	//that equals sum else if sum is more than move i otherwise move j
+	//that equals sum else if sum is more than move i otherwise move j 
 	public Data checkSum1(int arr[],int sum){
 		if(arr==null || arr.length<2){
 			throw new IllegalArgumentException();
